@@ -31,7 +31,7 @@ pipeline {
 	      stage('Create a Docker image from the Package bankingapp.jar file restart docker and jenkins') {
       steps {
        echo 'this step to create a docker image of our running application in our remode docker '
-        sh 'docker build -t devshivadevops96/bankhub:1.0 .'
+        sh 'docker build -t devshivadevops96/bankhub:2.0 .'
                     }
             }
 
